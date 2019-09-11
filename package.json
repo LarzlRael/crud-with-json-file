@@ -1,0 +1,27 @@
+{
+  "name": "Crud-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.7.37",
+    "@types/uuid": "^3.4.5",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
